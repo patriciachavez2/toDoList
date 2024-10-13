@@ -1,0 +1,34 @@
+
+#formulario {
+    background-color: rgb(246, 123, 211);
+    display: flex;
+    flex-direction: column; /* Cambia a columna para centrar mejor */
+    align-items: center;    /* Centra horizontalmente */
+    width: 400px;
+    padding: 20px; 
+    margin: 0 auto;        /* Centra el formulario en la pantalla */
+   border-radius: 5px;
+
+}
+
+h2 {
+    margin-bottom: 0;
+}
+ul li {
+    text-align: center;
+    margin: 5px 0;       /* Añade un espacio entre los elementos de la lista */
+}
+
+#borrar {
+     
+    width: 60px; 
+    height: 20px; 
+    border-radius: 5px;  
+
+}
+
+#borrar:hover {
+    cursor: pointer;
+    background-color: rgb(190, 16, 123);
+    color: whitesmoke;
+}
